@@ -1,0 +1,50 @@
+{
+  "id": "f16f5093-9038-49f4-8105-56a1df2708d1",
+  "prevId": "3efcc8f1-0b31-4a59-9fcf-87f864dd1e7f",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.landmarks": {
+      "name": "landmarks",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "location": {
+          "name": "location",
+          "type": "geometry(point)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "location2": {
+          "name": "location2",
+          "type": "geometry(Point, 4326)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

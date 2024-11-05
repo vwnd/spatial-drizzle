@@ -1,0 +1,1 @@
+ALTER TABLE "landmarks" ALTER COLUMN "location2" SET DATA TYPE geometry(PointZ, 4326);

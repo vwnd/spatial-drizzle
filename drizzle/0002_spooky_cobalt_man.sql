@@ -1,0 +1,1 @@
+ALTER TABLE "landmarks" ADD COLUMN "location2" geometry(Point, 4326);
