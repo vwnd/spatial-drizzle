@@ -1,5 +1,5 @@
 import { geometry, pgTable, serial, text } from "drizzle-orm/pg-core";
-import { pointz } from "./point";
+import { pointz } from "./pointz";
 
 export const landmarks = pgTable("landmarks", {
   id: serial("id").primaryKey(),
